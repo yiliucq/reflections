@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+YL: git init creates a metadata file .git for tracking history of the repository but without git add the files are untracked. git add creats a staging area for files you are ready to commit. git status shows the current status of the repository.
+
+2. How is the stating area different from the working directory and the repository? what value do you think it offers?
+YL: to keep the changes to be committed logical and small.
