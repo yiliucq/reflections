@@ -2,4 +2,22 @@
 YL: git init creates a metadata file .git for tracking history of the repository but without git add the files are untracked. git add creats a staging area for files you are ready to commit. git status shows the current status of the repository.
 
 2. How is the stating area different from the working directory and the repository? what value do you think it offers?
-YL: to keep the changes to be committed logical and small.
+YL: to keep the changes to be committed logical and small and separate.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+YL: add a logical change that is ready to be committed to the staging area.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+YL: experimental features, branches keeps experimental changes separate from the master so ther is always a working verion of the program. Generally good for context switching and collabration (multiple people working on their own branch off of the same master/project).
+
+5. How do diagrams help you visulaize the branch structure?
+YL: it visualizes the reachability from a commit to its parent and any detached head that is not reachable.
+
+6. What is the result of merging two branches together? why do we represent it in the diagram the way we do?
+YL: a new commit that contains changes from both branches. analogic to the version tree.
+
+7. What are the pros and cons of git's automatic merge vs. always doing merges manually?
+YL: automatic but we don't want Git to guess too often about the content.
+
+
+
